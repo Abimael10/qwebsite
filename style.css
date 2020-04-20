@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+/*UTILITIES*/
+
+.m-big {
+    margin: 5rem 0 4rem 0 !important;
+}
+
+.m-small {
+    margin: 2rem 0;
+}
+
+/*HEADER*/
+
+header nav {
+    padding: 2rem;
+    background: #000;
+    color: aliceblue;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.menu-items ul {
+    display: flex;
+}
+
+.menu-items ul li {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.menu-items ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn {
+    padding: 10px 14px;
+    background-color: #6f2dbd;
+    color: aliceblue;
+    border-radius: 24px;
+}
+
+/*SHOWCASE*/
+
+.showcase {
+    width: 100%;
+}
+
+.showcase .container {
+    display: flex;
+}
+
+.img-alt {
+    width: 100%;
+    height: 566px;
+    background-image: url(./img/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bio {
+    width: 100%;
+    height: auto;
+    background: #222;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.bio-photo {
+    background-image: url(./img/photo.jpg);
+    background-size: cover;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1px aliceblue solid;
+    margin-bottom: 2rem;
+}
+
+.bio-text {
+    font-size: 16px;
+    color: aliceblue;
+    text-align: justify;
+    padding: 0 2.5rem;
+}
+
+/*BOOK COVER SECTION*/
+
+.book-cover {
+    background: #111;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+.second-title {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.book-cover .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.book-img {
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/MQM_Cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.book-text {
+    padding: 5rem;
+    font-size: 16px;
+}
+
+.book-text p {
+    padding-bottom: 1rem;
+}
+
+.book-text ul li {
+    list-style: none;
+}
+
+.book-text ul li a  {
+    color: #6f2dbd;
+    text-decoration: none;
+}
+
+.book-text .btn {
+    text-decoration: none;
+}
+
+/*Cards*/
+
+.container-req {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+.req-items {
+    background-color: #6f2dbd;
+    border: #6f2dbd 3px solid;
+}
+
+.sub-cover_1 {
+    background-image: url(./img/m3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 350px;
+    height: 400px;
+}
+
+.sub-cover_2 {
+    width: 350px;
+    height: 400px;
+    background-image: url(./img/m1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-cover_3 {
+    width: 350px;
+    height: 400px;
+    background-image: url(./img/m2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.req-items .desc {
+    padding: .5rem;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*APPLICATIONS OF QUANTUM MECHANICS*/
+
+.app {
+    background-color: #6f2dbd;
+}
+
+.app h2 {
+    text-align: center;
+    padding: 4rem 0;
+    color: aliceblue;
+}
+
+.app .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.apps {
+    display: flex;
+    background: #222;
+    color: aliceblue;
+    font-size: 16px;
+    margin-bottom: 2.5rem;
+    border: aliceblue 1px solid;
+    align-items: center;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.app-img_1 {
+    background-image: url(./img/computing.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-img_2 {
+    background-image: url(./img/optics.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-img_3 {
+    background-image: url(./img/chemistry.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-img_4 {
+    background-image: url(./img/mag.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-img_5 {
+    background-image: url(./img/light.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-img_6 {
+    background-image: url(./img/cryp.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.app-desc {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.app-desc h3 {
+    margin-bottom: 2rem;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #000;
+    padding: 2.5rem;
+}
+
+.footer p {
+    color: aliceblue;
+    text-align: center;
+}
+
+.ch-color {
+    color: #6f2dbd;
+}
